@@ -1,0 +1,59 @@
+1631120683701	geckodriver	INFO	Listening on 127.0.0.1:62126
+1631120684166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofile7gCQqc"
+1631120685196	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofile7gCQqc\\search.json.mozlz4", (void 0)))
+1631120691986	Marionette	INFO	Listening on port 62131
+1631120692027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631120809828	Marionette	INFO	Stopped listening on port 62131
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+\\Temp\\rust_mozprofilehWq3mA"
+1631120806775	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofilehWq3mA\\search.json.mozlz4", (void 0)))
+1631120814098	Marionette	INFO	Listening on port 57551
+1631120814250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631120939276	Marionette	INFO	Stopped listening on port 57551
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  TypeError
+rn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofilesHnVqV\\search.json.mozlz4", (void 0)))
+1631120903743	Marionette	INFO	Listening on port 57651
+1631120904215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631120941860	Marionette	INFO	Stopped listening on port 57651
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1631121097831	geckodriver	INFO	Listening on 127.0.0.1:57784
+1631121098345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofileKk1GIp"
+1631121099469	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofileKk1GIp\\search.json.mozlz4", (void 0)))
+1631121105558	Marionette	INFO	Listening on port 57789
+1631121106386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631121145728	Marionette	INFO	Stopped listening on port 57789
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631121157001	geckodriver	INFO	Listening on 127.0.0.1:57885
+1631121157532	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofileKLe747"
+1631121158300	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofileKLe747\\search.json.mozlz4", (void 0)))
+1631121164726	Marionette	INFO	Listening on port 57890
+1631121164893	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631121217198	Marionette	INFO	Stopped listening on port 57890
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notificconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofileXF4jR9\\search.json.mozlz4", (void 0)))
+1631121223784	Marionette	INFO	Listening on port 57984
+1631121223891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631121469669	Marionette	INFO	Stopped listening on port 57984
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 14788, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/cconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofile8c8Zn8\\search.json.mozlz4", (void 0)))
+1631121473162	Marionette	INFO	Listening on port 49381
+1631121473726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631121978972	Marionette	INFO	Stopped listening on port 49381
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x8console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Conrad\\AppData\\Local\\Temp\\rust_mozprofiledTED92\\search.json.mozlz4", (void 0)))
