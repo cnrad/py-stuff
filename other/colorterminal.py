@@ -11,6 +11,8 @@ for i in range(0, 16):
 
 class colors:
     red_to_pink = 160
+    orange_to_magenta = 202
+    green_to_blue = 28
 
 def gradient(string, color):
 
@@ -27,8 +29,6 @@ def gradient(string, color):
         index += math.ceil(length/5)
         section = math.ceil(length/5) + index
 
-    print(array)
-
     for j in range(0, 5):
         code = str(color + j)
         sys.stdout.write(u"\u001b[38;5;" + code + "m" + array[j])
@@ -37,3 +37,5 @@ def gradient(string, color):
 
 
 gradient("This is a test for gradient strings.", colors.red_to_pink)
+gradient("This is a another test for gradient strings, but longer.", colors.orange_to_magenta)
+gradient("Very cool af.", colors.green_to_blue)
